@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PH5YYKPL39"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-PH5YYKPL39");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Charles's Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="d-flex body" id="portfolio">
+        <a href="#" id="logo">Charles Gobina</a>
+        <a href="#" id="burger" class="burgerIcon">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+        <ul class="nav-links d-flex">
+          <li class="portfolio enabled"><a href="#portfolio">Portfolio</a></li>
+          <li class="about"><a href="#aboutme">About</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
+          <li class="contact"><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="menu-container d-flex">
+        <div class="trans">
+          <div class="close-btn">
+            <i class="bx bx-x bx-lg closeIcon"></i>
+          </div>
+          <ul>
+            <li><a class="side-link" href="#portfolio">Portfolio</a></li>
+            <li><a class="side-link" href="#aboutme">About</a></li>
+            <li><a class="side-link" href="#contact">Contact</a></li>
+            <li class="contact"><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </header>
+    <main id="main">
+      <div class="me d-flex just-center">
+        <section class="onme">
+          <h1 class="hello-greeting">
+            I’m Charles, <br />
+            <span class="tagline">FullStack Developer </span>
+          </h1>
+          <p class="about-me">
+            I love <strong>data structures and algorithms,</strong> visually appealing UI, and clean code. 
+            I'm a <strong>remote work and pair-programming connoisseur,</strong> fluent in multiple technologies and frameworks and 
+            capable of picking up a new language quickly.
+          </p>
+          <p class="about-me">
+            I'm passionate about learning new technologies and always looking to improve my technical and interpersonal 
+            skills. I have a <strong>Batchelors Degree in Software Engineering</strong>
+          </p>
+          <p class="conn">LET’S CONNECT</p>
+          <ul class="socials">
+            <li>
+              <a href="https://twitter.com/charles_gobina">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/charlesgobina/">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.github.com/charlesgobina/">
+                <i class="fa-brands fa-github fa-xl"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://angel.co/u/charles-gobina">
+                <i class="fab fa-angellist fa-xl"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="modal">
+        <div id="overlay"></div>
+        <div class="modal-content"></div>
+      </div>
+      <section class="projects" id="projects">
+        <div class="cards">
+          <figure>
+            <img
+              src="./assets/images/space.png"
+              alt="SpaceX Project"
+            />
+          </figure>
+          <div class="project-info">
+            <h2 class="tonic-one">SpaceX</h2>
+            <ul class="tonic-list work-info d-flex">
+              <li class="paw">Microverse</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">Full Stack Dev</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">2022</li>
+            </ul>
+            <p class="tonic-para">
+              SpaceX is an app I built using React and Redux. It uses real spaceX data through an API to provide commercial and scientifc flights.
+              Users can reserve rockets and join special missions in the app. The other technologies I used
+              in building this web app are listed below.
+            </p>
+            <ul class="langs d-flex">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+              <li>react</li>
+              <li>redux</li>
+            </ul>
+            <div class="button-group d-flex">
+              <a class="modal-btn" href="https://startreck.netlify.app/"><span>Live demo</span> <i class='bx bx-wifi bx-sm' id='icon'></i></a>
+              <a class="modal-btn" href="https://github.com/Hombre2014/Space-Travelers"><span>See source</span> <i class='bx bxl-github bx-sm'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <figure>
+            <img
+              src="./assets/images/home.png"
+              alt="Weather Project"
+            />
+          </figure>
+          <div class="project-info">
+            <h2 class="tonic-one">Weather Today</h2>
+            <ul class="tonic-list work-info d-flex">
+              <li class="paw">Microverse</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">Full Stack Dev</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">2022</li>
+            </ul>
+            <p class="tonic-para">
+              Weather-Today is a web application I built using React and Redux. It enables users to get information 
+              about the weather condition of different areas around the world using an API. 
+              Users also have the possibility to search for any location. The other technologies I used
+              in building this web app are listed below.
+            </p>
+            <ul class="tonic-list langs d-flex">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
+            <div class="button-group d-flex">
+              <a class="modal-btn" href="https://mcrvs-weather.netlify.app/"><span>Live demo</span> <i class='bx bx-wifi bx-sm' id='icon'></i></a>
+              <a class="modal-btn" href="https://github.com/charlesgobina/weather-today"><span>See source</span> <i class='bx bxl-github bx-sm'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <figure>
+            <img
+              src="./assets/images/threecat.png"
+              alt="Budget app"
+            />
+          </figure>
+          <div class="project-info">
+            <h2 class="tonic-one">Budget App</h2>
+            <ul class="tonic-list work-info d-flex">
+              <li class="paw">Microverse</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">Full Stack Dev</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">2022</li>
+            </ul>
+            <p class="tonic-para">
+              This is a mobile-web app I built using Ruby on Rails. It keeps record of user transactions made on a category. 
+              Users can create new categories and add several transactions under them. 
+              I also built it using the technologies listed below.
+            </p>
+            <ul class="langs d-flex">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
+            <div class="button-group d-flex">
+              <a class="modal-btn" href="https://budget-appl.herokuapp.com/"><span>Live demo</span> <i class='bx bx-wifi bx-sm' id='icon'></i></a>
+              <a class="modal-btn" href="https://github.com/charlesgobina/budget-app"><span>See source</span> <i class='bx bxl-github bx-sm'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <figure>
+            <img
+              src="./assets/images/sneaker.png"
+              alt="Uber Navigation Project"
+            />
+          </figure>
+          <div class="project-info">
+            <h2 class="tonic-one">Sneaker Landing</h2>
+            <ul class="tonic-list work-info d-flex">
+              <li class="paw">Microverse</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">Frontend Dev</li>
+              <li>
+                <i class="fa-solid fa-circle fa-xs"></i>
+              </li>
+              <li class="wap">2022</li>
+            </ul>
+            <p class="tonic-para">
+              This SPA is one I built with React and Redux. It is a sneaker landing page I took from frontend mentor. 
+              It allows users to add a desirable number of sneakers to a cart. Users can also remove sneakers from the cart
+            </p>
+            <ul class="tonic-list langs d-flex">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
+            <div class="button-group d-flex">
+              <a class="modal-btn" href="https://clever-alfajores-106503.netlify.app/"><span>Live demo</span> <i class='bx bx-wifi bx-sm' id='icon'></i></a>
+              <a class="modal-btn" href="https://github.com/charlesgobina/ecommerce-landing-page"><span>See source</span> <i class='bx bxl-github bx-sm'></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="lint d-flex" id="aboutme">
+        <section class="onme" id="about">
+          <div class="onme-top">
+            <h1 class="hello-greeting">About</h1>
+            <h2 class="about-tagline">Myself</h2>
+            <p class="about-me">
+              I'm a <strong>certified FullStack Developer</strong> with a <strong>BTech in Software Engineering</strong> 
+            </p>
+            <p class="about-me">
+              I'm passionate about learning new technologies aand always looking to improve my technical and interpersonal 
+              skills. I have a <strong>Batchelors Degree in Software Engineering</strong>
+            </p>
+            <p class="conn">LET’S CONNECT</p>
+            <ul class="about-socials d-flex">
+              <li>
+                <a href="https://twitter.com/charles_gobina">
+                  <i class="fa-brands fa-twitter fa-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/charlesgobina/">
+                  <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.github.com/charlesgobina/">
+                  <i class="fa-brands fa-github fa-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://angel.co/u/charles-gobina">
+                  <i class="fab fa-angellist fa-xl"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="tonic-btn" href="https://docs.google.com/document/d/1Sal9R9CGgN1Nul20Rl7j8XzIQ_fLHL_o_a0MQySxoTU/edit?usp=sharing">Get my resume</a>
+          </div>
+          <div class="onme-bottom">
+            <ul class="freak-skills">
+              <li class="freak-lang d-flex la">
+                <p class="freak-text">Languages</p>
+                <i class="bx bxs-chevron-right chevron" data-stack="one"></i>
+              </li>
+              <li class="webin" id="one">
+                <ul class="lang-stack web-stack">
+                </ul>
+              </li>
+              <li class="freak-lang d-flex fra">
+                <p class="freak-text">Frameworks</p>
+                <i class="bx bxs-chevron-right chevron" data-stack="two"></i>
+              </li>
+              <li class="webin" id="two">
+                <ul class="frame-stack web-stack">
+                </ul>
+              </li>
+              <li><hr class="bottom-sep" /></li>
+              <li class="freak-lang d-flex ski">
+                <p class="freak-text">Skills</p>
+                <i class="bx bxs-chevron-right chevron" data-stack="three"></i>
+              </li>
+              <li class="webin" id="three">
+                <ul class="skill-stack web-stack" >
+                </ul>
+              </li>
+              <li><hr class="bottom-sep" id="bottom-sep-ski" /></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="footer" id="contact">
+        <footer class="footer-section d-flex just-center">
+          <div class="section-greeting">
+            <h2>Contact me</h2>
+            <p class="greeting-text">
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
+          </div>
+          <form
+            class="footer-form d-flex"
+            action="https://formspree.io/f/moqyzrwl"
+            method="post"
+          >
+            <div class="form-label d-flex">
+              <label for="firstname">Full Name</label>
+              <input
+                required
+                type="text"
+                maxlength="30"
+                id="firstname"
+                placeholder="Full Name"
+                name="user"
+              />
+            </div>
+            <div class="form-label d-flex">
+              <label for="email">Email</label>
+              <input
+                required
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                name="email"
+              />
+            </div>
+            <div class="form-label d-flex">
+              <label id="msg" for="message">Message</label>
+              <textarea
+                required
+                maxlength="500"
+                id="message"
+                placeholder="Write your message"
+                cols="30"
+                rows="7"
+                name="message"
+              ></textarea>
+            </div>
+            <small class="err-msg"></small>
+            <button class="tonic-btn" id="submit" type="submit">Get in Touch</button>
+          </form>
+        </footer>
+      </section>
+    </main>
+    <script src="jsscripts.js"></script>
+  </body>
+</html>
