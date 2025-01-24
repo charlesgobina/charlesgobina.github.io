@@ -78,7 +78,6 @@ const projects = [
     Users can create new categories and add several transactions under them. 
     It is built with ruby on rails`,
     tech: ['html', 'css', 'javascript', 'ruby on rails'],
-    liveDemo: 'https://budget-appl.herokuapp.com/',
     gitHub: 'https://github.com/charlesgobina/budget-app',
   },
   {
@@ -109,10 +108,6 @@ const languages = [
     icon: './assets/images/langs/js.png',
   },
   {
-    name: 'Ruby',
-    icon: './assets/images/langs/ruby.png',
-  },
-  {
     name: 'PostgreSQL',
     icon: './assets/images/langs/postgre.png',
   },
@@ -135,8 +130,8 @@ const frameworks = [
   },
 
   {
-    name: 'Rails',
-    icon: './assets/images/langs/rubyonrails.png',
+    name: 'Node',
+    icon: './assets/images/langs/node.png',
   },
 ];
 
